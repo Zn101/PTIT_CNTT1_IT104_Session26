@@ -33,6 +33,8 @@ export default function Student() {
           Search
         </button>
       </form>
+      <h1>{studentName}</h1>
     </div>
   );
 }
+
