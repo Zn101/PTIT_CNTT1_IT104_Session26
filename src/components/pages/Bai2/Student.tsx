@@ -1,0 +1,10 @@
+import { useParams } from "react-router-dom";
+
+export default function Student() {
+  const { name } = useParams();
+  return (
+    <div>
+        <h1>Student name: {name}</h1>
+    </div>
+  );
+}
